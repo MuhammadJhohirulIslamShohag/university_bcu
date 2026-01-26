@@ -10,7 +10,8 @@ a = 2
 b=3
 c = 5
 x = b*b + 4 * a * c 
-print(x**(1/2.0))
+squareRootValue = x**(1/2.0)
+print(squareRootValue)
 
 
 

@@ -15,5 +15,5 @@ meanValue = totalVariableValue / 5
 totalSquareDevisionVlaue = ((a - meanValue) ** 2) + ((b - meanValue) ** 2) + ((c - meanValue) ** 2) + ((d - meanValue) ** 2) + ((e - meanValue) ** 2) 
 totalSquareDevisionVlaueSum = totalSquareDevisionVlaue / 5
 
-standardDeviationVlaue = totalSquareDevisionVlaueSum ** (1 / 2)
+standardDeviationVlaue = totalSquareDevisionVlaueSum ** (1 / 2.0)
 print(standardDeviationVlaue)
