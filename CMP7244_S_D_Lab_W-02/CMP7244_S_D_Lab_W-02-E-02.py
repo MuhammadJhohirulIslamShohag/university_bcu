@@ -80,7 +80,7 @@ amounts in a report we will typically want 2 decimal places.
 s = "a float %.1f number" % 3.3
 print(s)
 
-d = "a float %6.2f" % 123456789.01
+d = "a float %15.2f" % 123456789.01
 print(d)
 
 """
@@ -98,5 +98,18 @@ print("a float %f and an int %d" % (b, a))
 def square(x):
     return x * x
 
-print(square(10))
+# print(square(10))
+
+"""
+2.1 A function with 2 statements
+"""
+def sqrt(x):
+    y = x ** 0.5;
+    return y
+
+print('number %.2f should be 2 decimal number' %sqrt(2))
+
+
+
+
 
